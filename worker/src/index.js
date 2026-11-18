@@ -20,7 +20,10 @@ async function fetchData(token) {
     headers: { Authorization: `bearer ${token}`, "Content-Type": "application/json", "User-Agent": "rokoov-readme" },
     body: JSON.stringify({ query: QUERY, variables: { u: USER } }),
   });
-  const cal = (await res.json()).data.user.contributionsCollection.contributionCalendar;
+  if (!token) throw new Error("GH_TOKEN secret is missing");
+  const json = await res.json();
+  if (!json.data?.user) throw new Error(`GitHub ${res.status}: ${json.message || JSON.stringify(json.errors)}`);
+  const cal = json.data.user.contributionsCollection.contributionCalendar;
   const data = {
     total: cal.totalContributions,
     weeks: cal.weeks.map((w) => w.contributionDays.map((d) => LEVELS[d.contributionLevel] ?? 0)),
