@@ -1,4 +1,4 @@
-// Live README art: renders the contribution tree (or planet off-season) on every request
+// Live README art: renders the contribution tree (or planet off-season) on each request
 const USER = "rokoov";
 const FONT = "ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace";
 const BG = "#0d1117";
