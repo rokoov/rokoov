@@ -133,7 +133,7 @@ def planet(d):
 
 
 def render(grid, cols, rows, cw, ch, W, H, d, css, extra, title):
-    out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W * 2:.0f}" height="{H * 2:.0f}" viewBox="0 0 {W:.0f} {H:.0f}">',
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W * 4:.0f}" height="{H * 4:.0f}" viewBox="0 0 {W:.0f} {H:.0f}">',
            "<style>",
            f"text{{font-family:{FONT};font-size:11.5px}}",
            *css,
