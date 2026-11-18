@@ -1,7 +1,7 @@
 <table width="100%">
 <tr><td>
 
-<img src="assets/hero.svg" alt="rokoov contribution tree" width="100%" />
+<img src="https://rokoov-readme.rokoov.workers.dev/hero.svg" alt="rokoov contribution tree" width="100%" />
 
 </td></tr>
 <tr><td>
