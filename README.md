@@ -1,4 +1,4 @@
-<table>
+<table width="100%">
 <tr><td>
 
 <img src="assets/hero.svg" alt="rokoov contribution tree" width="100%" />
