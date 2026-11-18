@@ -13,6 +13,7 @@ BADGES = {
     "javascript": ("JavaScript", "dev:javascript/javascript-original"),
     "swift": ("Swift", "dev:swift/swift-original"),
     "python": ("Python", "dev:python/python-original"),
+    "cpp": ("C/C++", "dev:cplusplus/cplusplus-original"),
     "react": ("React", "dev:react/react-original"),
     "nextjs": ("Next.js", "si:nextdotjs:ffffff"),
     "tailwind": ("Tailwind", "dev:tailwindcss/tailwindcss-original"),

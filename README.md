@@ -7,7 +7,7 @@
 <tr><td>
 
 **languages**<br>
-<img src="assets/badges/luau.svg" alt="Luau" height="24" /> <img src="assets/badges/typescript.svg" alt="TypeScript" height="24" /> <img src="assets/badges/javascript.svg" alt="JavaScript" height="24" /> <img src="assets/badges/swift.svg" alt="Swift" height="24" /> <img src="assets/badges/python.svg" alt="Python" height="24" />
+<img src="assets/badges/luau.svg" alt="Luau" height="24" /> <img src="assets/badges/typescript.svg" alt="TypeScript" height="24" /> <img src="assets/badges/javascript.svg" alt="JavaScript" height="24" /> <img src="assets/badges/swift.svg" alt="Swift" height="24" /> <img src="assets/badges/python.svg" alt="Python" height="24" /> <img src="assets/badges/cpp.svg" alt="C/C++" height="24" />
 
 </td></tr>
 <tr><td>
